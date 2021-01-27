@@ -1,8 +1,8 @@
 @echo off
 :start
+color a
 mode con cols=50 lines=30
 cls
-color a
 netsh wlan show profiles
 Set /p username=SSID:
 netsh wlan show profiles name=%username% key=clear
