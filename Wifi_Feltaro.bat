@@ -7,7 +7,7 @@ netsh wlan show profiles
 Set /p username=SSID:
 netsh wlan show profiles name=%username% key=clear
 set choice=
-set /p choice="Repeat? (y/n): "
+set /p choice="Ujra? (y/n): "
 if '%choice%'=='y' goto start
 if '%choice%'=='n' exit
 cmd.exe
