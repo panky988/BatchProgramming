@@ -1,4 +1,4 @@
 @echo off
-taskkill /PIN >>number<<
+taskkill /PID >>number<<
 cmd.exe
 pause
